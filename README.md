@@ -1,5 +1,5 @@
 # project-euler
-The home of my (often feeble) attempts at [Project Euler] (https://projecteuler.net/) challenges.   This repo includes a backup of all project euler challenge questions for offline (i.e. long plane rides) access.  
+The home of my (often feeble) attempts at [Project Euler] (https://projecteuler.net/) challenges.   This repo includes a cache of all Project Euler challenge questions for offline (i.e. long plane rides) access.  Big thanks to Kyle Keen's [Local Euler](http://kmkeen.com/local-euler) for making that possible.
 
 After once through the normal Project Euler, I will move on to [ProjectEuler+ on HackerRank](https://www.hackerrank.com/contests/projecteuler/challenges).  The challenges are basically the same but the test cases are hidden (and include edge case tests) and computation time is limited.  
 
