@@ -8,6 +8,15 @@ Many symbols are utf8, my apologies if you are on a 7-bit TTY.
 Solutions are hashed with md5sum
 echo -n 'myanswer' | md5sum
 
+on MacOSX: 
+echo -n '<myAnswer>' | openssl md5 | grep <providedAnswer>
+
+Specific example: 
+
+echo -n '104743' | openssl md5 | grep 8c32ab09ec0210af60d392e9b2009560 
+
+^ will repeat the same md5sum if your answer is correct, no output if incorrect.
+
 
 
 generated on 2014-6-29 at 15:46
