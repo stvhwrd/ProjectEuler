@@ -5,6 +5,7 @@
 #include <stdbool.h>
 
 const int LIMIT = 10001;
+
 /**
 Problem 7
 =========

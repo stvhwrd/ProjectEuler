@@ -6,7 +6,7 @@
 int sumMultiples(int limit){
     int sum = 0;
     for(int i = 0; i < limit; i++){
-    // using an if-else (instead of if-if) prevents the program from adding multiples of 15 (3*5) twice.
+    // using an if-else (instead of if-if) prevents the program from adding multiples of 15 twice (once for 3 and once for 5).
         if(i%3==0){
             sum+=i;
         }           
