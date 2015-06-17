@@ -9,15 +9,10 @@ int sumMultiples(int limit)
     
     for(int i = 0; i < limit; i++)
     {
-    // using an if-else (instead of if-if) prevents the program from adding multiples of 15 twice (once for 3 and once for 5).
-        if(i%3==0)
+        if(i % 3 == 0 || i % 5 == 0)
         {
             sum+=i;
         }           
-        else if(i%5==0)
-        {
-            sum+=i;
-        }
     }
     return sum;
 }
