@@ -22,10 +22,10 @@ Problem 7
 
 int checkPrime(int n) {  
 // from "cracking the coding interview" page 98, method for checking primality, slightly optimized to check only sqrt(n)
-  int root = (int) sqrt(n);
+    int root = (int) sqrt(n);
   
-  for(int i = 2; i <= root; i++)
-  {
+    for(int i = 2; i <= root; i++)
+    {
         if (n % i == 0)
         {
             return false;
