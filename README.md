@@ -1,4 +1,6 @@
 # project-euler
+
+[![Join the chat at https://gitter.im/stvhwrd/ProjectEuler](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/stvhwrd/ProjectEuler?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 The home of my (often feeble) attempts at [Project Euler] (https://projecteuler.net/) challenges.   This repo includes a cache of all Project Euler challenge questions for offline (i.e. long plane rides) access.  Big thanks to Kyle Keen's [Local Euler](http://kmkeen.com/local-euler) for making that possible.
 
 After once through the normal [Project Euler](https://projecteuler.net/), I will move on to [ProjectEuler+ on HackerRank](https://www.hackerrank.com/contests/projecteuler/challenges).  The challenges are basically the same but the test cases are hidden (and include edge case tests) and computation time and resources are limited.  
