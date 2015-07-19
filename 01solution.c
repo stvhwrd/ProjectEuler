@@ -6,24 +6,24 @@
 int sumMultiples(int limit)
 {
     int sum = 0;
-    
+
     for(int i = 0; i < limit; i++)
     {
-        if(i % 3 == 0 || i % 5 == 0)
+        if(i%3 == 0 || i%5 == 0)
         {
             sum+=i;
-        }           
+        }
     }
     return sum;
 }
 
 
-int main() 
+int main()
 {
     int testCases = 0, limit = 0;
-    
+
     // testCases consumes the first input (in this implementation)
-    scanf("%i", &testCases);    
+    scanf("%i", &testCases);
 
     //as long as we're reading in test cases
     while(scanf("%d", &limit) == 1)
