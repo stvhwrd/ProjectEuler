@@ -43,14 +43,12 @@
      Answer: 0f53ea7949d32ef24f9186207600403c
  */
 
-// put the digits into an array. start at index zero and compare 13-consecutive-digit-products
-// until we reach the end of the array
-// we can also compute 13 digit sums since 13 highest digits would yield highest possible product
-// keep track of maxProduct, return maxProduct
 
 const int ARRAY_LENGTH = 1000;
 
+// Number of consecutive integers to consider
 int runSize = 0;
+
 
 int computeProduct(int numArray[], int firstIndex)
 {
